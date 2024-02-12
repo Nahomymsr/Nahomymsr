@@ -60,8 +60,8 @@ function App() {
                 </div>      
 
                 <div className="socials mt-4 justify-content-center justify-content-sm-start ">
-                    <a className="social-item" href="javascript:void(0)"><i className="ti-github"></i></a>
-                    <a className="social-item" href="javascript:void(0)"><i className="ti-linkedin"></i></a>
+                    <a className="social-item" href="https://github.com/Nahomymsr"><i className="ti-github"></i></a>
+                    <a className="social-item"href="https://www.linkedin.com/in/nahomy-salazar-37886a119/"><i className="ti-linkedin"></i></a>
                 </div>
             </div>              
             <div className="img-holder d-none d-sm-grid " style={{alignContent: 'center'}}>
