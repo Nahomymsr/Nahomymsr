@@ -28,9 +28,10 @@ function App() {
             <img src="assets/imgs/logonahomy.png" alt="Bootstrap" width="40" height="50"></img>
         </a>
             <a className="navbar-brand" src="assets/imgs/logonahomy.png"></a>
-            <button className="navbar-toggler" type="button" onClick={()=> handleClick()} data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" onClick={()=> handleClick()} data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
+            
 
             <div className={classCheck} id="navbarSupportedContent">
                 
