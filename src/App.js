@@ -10,6 +10,16 @@ import resume from './images/CV120224.pdf';
 
 
 function App() {
+
+  const [Show, setShow] = useState(false)
+
+    function handleClick(){
+        setShow (Show => !Show);
+        console.log("entro");
+    }
+
+    let classCheck = Show ? 'collapse navbar-collapse show' :'collapse navbar-collapse';
+    
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
@@ -18,11 +28,11 @@ function App() {
             <img src="assets/imgs/logonahomy.png" alt="Bootstrap" width="40" height="50"></img>
         </a>
             <a className="navbar-brand" src="assets/imgs/logonahomy.png"></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" onClick={()=> handleClick()} data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className={classCheck} id="navbarSupportedContent">
                 
                 <ul className="navbar-nav ml-auto align-items-center">
                     <li className="nav-item">
