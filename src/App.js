@@ -4,6 +4,7 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-
 import { FormContact} from './Componentes/FormContact'
 import { Phone } from 'react-bootstrap-icons';
 import resume from './images/CV120224.pdf';
+import { useState, useEffect } from 'react';
 
 
 
