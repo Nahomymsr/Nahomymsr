@@ -47,7 +47,7 @@ export const FormContact = () => {
               active: false,
             
             });
-          }, "2000");
+          }, "5000");
 
 
          
@@ -68,7 +68,7 @@ export const FormContact = () => {
               active: false,
             
             });
-          }, "2000");
+          }, "5000");
 
           
         },
