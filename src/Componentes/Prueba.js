@@ -9,7 +9,7 @@ function Prueba({Active,Type, mensaje, titulo, cssClass}) {
         <section className='position-absolute'style={{margin:'60px'}} >
         {Active ? (
                
-              <Alert className='slide-in-top' variant={Type} mensaje={mensaje} titulo={titulo}>
+              <Alert className='fade-in-out' variant={Type} mensaje={mensaje} titulo={titulo}>
                  <Alert.Heading>{titulo}</Alert.Heading>
                      <p>{mensaje}</p>
               </Alert>
