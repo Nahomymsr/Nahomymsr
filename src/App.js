@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-bootstrap';
 import { FormContact} from './Componentes/FormContact'
 import { Phone } from 'react-bootstrap-icons';
-import resume from './images/CV120224.pdf';
+import resume from './images/CV050424.pdf';
 import { useState, useEffect } from 'react';
 
 
@@ -84,7 +84,7 @@ function App() {
        
         
     </header>
-    <section id="about" className="section mt-3 p-3">
+    <section id="about" className="section mt-3 p-3 mb-3" style={{borderBottom:"1px solid #dee2e6"}}>
         <div className="container mt-5">
             <div className=" text-center text-md-left">
                 <div className="pl-md-4 ">
@@ -94,7 +94,7 @@ function App() {
                             <img src="assets/imgs/desarrollo.png" className='d-none d-xl-block' style={{maxHeight:'400px',maxWidth:'400px'}}></img>
                         </div>
 
-                        <div className="col-12 col-xl-8"  >
+                        <div className="col-12 col-xl-8"   >
                             <div className='d-flex justify-content-center'>
                                 <h6 class=" d-flex letra justify-content-center d-sm-block mb-3 fw-bold" style={{fontSize:'65px',color:'#FF8882'}}>Acerca de mí</h6>
                             </div>
@@ -117,6 +117,106 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
             </div>
         </div>
     </section>
+
+
+
+    <section className="section mt-5 p-3">
+        <div className="container text-center">
+        <div className='d-flex justify-content-center'>
+                                <h6 class=" d-flex letra justify-content-center d-sm-block mb-3 fw-bold" style={{fontSize:'65px',color:'#FF8882'}}>Proyectos</h6>
+        </div>
+        <div className='d-flex justify-content-center mt-4' style={{columnGap:"22px", rowGap:"38px", flexWrap:"wrap"}}>
+            <div className='project-box'>
+                <a href="https://app-tareas-tawny.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
+                <div >
+                    <img  style={{width:"125px",height:"120px"}} src="assets/imgs/listtask.png"></img>
+                </div>
+                    <h1 className='info' style={{fontSize:"larger"}}>App tareas</h1>
+                <div>
+                    <img style={{width:"50px",height:"50px"}} src="assets/imgs/logo-react.jpg"></img>
+                    <img  className="mx-1" style={{width:"46px",height:"39px"}} src="assets/imgs/logo-boots.jpeg"></img>
+                    <img style={{width:"41px",height:"39px"}} src="assets/imgs/JavaScript-logo.png"></img>
+                </div>
+                <div>
+                    <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
+                    App web creada con React js y Bootstrap para agregar, eliminar y completar tareas a traves del manejo de
+ eventos onClick, onChange y onKeyDown , renderizado condicional, hook useState.
+                    </p>
+                </div>
+                </a>
+            </div>
+
+            <div className='project-box'>
+                <a href="https://calculadora-react-three-rho.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
+                <div >
+                    <img  style={{width:"125px",height:"120px"}} src="assets/imgs/calculadora.jpg"></img>
+                </div>
+                    <h1 className='info' style={{fontSize:"larger"}}>Calculadora</h1>
+                <div>
+                    <img style={{width:"50px",height:"50px"}} src="assets/imgs/logo-react.jpg"></img>
+                    <img style={{width:"41px",height:"39px"}} src="assets/imgs/JavaScript-logo.png"></img>
+                </div>
+                <div>
+                    <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
+                    Esta constituida
+ solo por tres componentes Boton , Pantalla y app.js. Utilice css puro, en donde implemente media
+ queries, css grid, css flexbox
+                    </p>
+                </div>
+                </a>
+            </div>
+
+           
+
+            <div className='project-box'>
+                <a href="https://apibook-ui.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
+                <div >
+                    <img  style={{width:"110px",height:"120px"}} src="assets/imgs/web-api.png"></img>
+                </div>
+                    <h1 className='info' style={{fontSize:"larger"}}>API</h1>
+                <div>
+                    <img style={{width:"50px",height:"50px"}} src="assets/imgs/logo-react.jpg"></img>
+                    <img  className="mx-1" style={{width:"46px",height:"39px"}} src="assets/imgs/mongodb.png"></img>
+                    <img  className="mx-1" style={{width:"46px",height:"39px"}} src="assets/imgs/node-js.png"></img>
+                    <img  className="mx-1" style={{width:"46px",height:"39px"}} src="assets/imgs/express-js.png"></img>
+                    
+                </div>
+                <div>
+                    <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
+                    Creación de una API REST sencilla que permite ejecutar metodos HTTP básicos (Get, Post,Delete) a tráves
+ de una interfaz gráfica simple.
+                    </p>
+                </div>
+                </a>
+            </div>
+
+            <div className='project-box'>
+                <a href="https://e-commerce-shrd.vercel.app/" style={{textDecoration:"none",color:"black"}}>
+                <div >
+                    <img  style={{width:"147px",height:"101px"}} src="assets/imgs/logoshop.png"></img>
+                </div>
+                    <h1 className='info' style={{fontSize:"larger"}}>E-COMMERCE</h1>
+                <div>
+                    <img style={{width:"50px",height:"50px"}} src="assets/imgs/logo-react.jpg"></img>
+                    <img  className="mx-1" style={{width:"46px",height:"39px"}} src="assets/imgs/logo-boots.jpeg"></img>
+                   
+                    
+                </div>
+                <div>
+                    <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
+                    Maquetación inicial de un e-commerce con reactjs , mediante el consumo de la api "FakeStoreApi" y el uso
+ de React Router 6 . Me enfoqué principalmente en poder lograr
+ actualizar el carrito (offcanvas)  a medida que se agregan o eliminan productos
+                    </p>
+                </div>
+                </a>
+            </div>
+
+           
+        </div>
+              
+        </div>
+      </section>
 
 
     <section className="section mt-5 p-3">
