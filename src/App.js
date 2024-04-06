@@ -128,8 +128,14 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
         <div className='d-flex justify-content-center mt-4' style={{columnGap:"22px", rowGap:"38px", flexWrap:"wrap"}}>
             <div className='project-box'>
                 <a href="https://app-tareas-tawny.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
-                <div >
-                    <img  style={{width:"125px",height:"120px"}} src="assets/imgs/listtask.png"></img>
+                <div className='d-flex justify-content-end me-2 mt-1'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg>
+       
+                </div>
+               <div >
+                    <img  style={{width:"117px",height:"108px"}} src="assets/imgs/listtask.png"></img>
                 </div>
                     <h1 className='info' style={{fontSize:"larger"}}>App tareas</h1>
                 <div>
@@ -139,8 +145,8 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
                 </div>
                 <div>
                     <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
-                    App web creada con React js y Bootstrap para agregar, eliminar y completar tareas a traves del manejo de
- eventos onClick, onChange y onKeyDown , renderizado condicional, hook useState.
+                    Aplicación web para agregar, eliminar y completar tareas a traves del manejo de
+ eventos onClick, onChange y onKeyDown , renderizado condicional y  hooks.
                     </p>
                 </div>
                 </a>
@@ -148,8 +154,13 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
 
             <div className='project-box'>
                 <a href="https://calculadora-react-three-rho.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
+                <div className='d-flex justify-content-end me-2 mt-1'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg>
+</div>
                 <div >
-                    <img  style={{width:"125px",height:"120px"}} src="assets/imgs/calculadora.jpg"></img>
+                    <img  style={{width:"112px",height:"107px"}} src="assets/imgs/calculadora.jpg"></img>
                 </div>
                     <h1 className='info' style={{fontSize:"larger"}}>Calculadora</h1>
                 <div>
@@ -158,9 +169,9 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
                 </div>
                 <div>
                     <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
-                    Esta constituida
- solo por tres componentes Boton , Pantalla y app.js. Utilice css puro, en donde implemente media
- queries, css grid, css flexbox
+                    Está constituida
+ por dos componentes Boton y Pantalla. Utilicé css puro, en donde implementé media
+ queries, css grid y css flexbox para la distribución de los elementos
                     </p>
                 </div>
                 </a>
@@ -170,6 +181,11 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
 
             <div className='project-box'>
                 <a href="https://apibook-ui.vercel.app/" style={{textDecoration:"none",color:"black"}} target='_blank'>
+                <div className='d-flex justify-content-end me-2 mt-1'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg>
+</div>
                 <div >
                     <img  style={{width:"110px",height:"120px"}} src="assets/imgs/web-api.png"></img>
                 </div>
@@ -192,6 +208,11 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
 
             <div className='project-box'>
                 <a href="https://e-commerce-shrd.vercel.app/" style={{textDecoration:"none",color:"black"}}>
+                <div className='d-flex justify-content-end me-2 mt-1'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+</svg>
+</div>
                 <div >
                     <img  style={{width:"147px",height:"101px"}} src="assets/imgs/logoshop.png"></img>
                 </div>
@@ -205,8 +226,7 @@ Me caracterizo por ser una persona responsable, creativa, con facilidad de apren
                 <div>
                     <p className="mt-2 mx-2" style={{fontSize:"x-small"}}> 
                     Maquetación inicial de un e-commerce con reactjs , mediante el consumo de la api "FakeStoreApi" y el uso
- de React Router 6 . Me enfoqué principalmente en poder lograr
- actualizar el carrito (offcanvas)  a medida que se agregan o eliminan productos
+ de React Router 6 . 
                     </p>
                 </div>
                 </a>
