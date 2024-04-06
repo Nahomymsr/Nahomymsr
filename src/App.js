@@ -64,7 +64,7 @@ function App() {
             <div className="infos mt-5">
                 <h6 className="subtitle d-flex justify-content-center d-sm-block">Hola,soy</h6>
                 <h6 className="title letra d-flex justify-content-center d-sm-block mb-3">Nahomy Salazar</h6>
-                <p className='d-flex text-center text-sm-start justify-content-center d-sm-block'>Frontend Web Developer | Ingeniero Industrial</p>
+                <p className='d-flex text-center text-sm-start justify-content-center d-sm-block'>Web Developer | Ingeniero Industrial</p>
 
                 <div className="buttons pt-3 d-flex justify-content-center d-sm-block">
                     <button className="btn btn-primary ">INFO</button>
