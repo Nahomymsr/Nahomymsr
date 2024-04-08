@@ -58,8 +58,8 @@ function App() {
     </nav>
     <header className="header" style={{ marginTop:'150PX',height:'AUTO',minHeight:'fit-content'}} id="home">
     <div className="container d-block d-sm-flex mb-5">
-            <div className="img-holder d-block d-sm-none " style={{alignContent: 'center', height:'50%'}}>
-                <img src="assets/imgs/nahomycari.png" alt=""></img>
+            <div className="img-holder slide-left d-block d-sm-none " style={{alignContent: 'center', height:'50%'}}>
+                <img  src="assets/imgs/nahomycari.png" alt=""></img>
             </div>   
             <div className="infos mt-5">
                 <h6 className="subtitle d-flex justify-content-center d-sm-block">Hola,soy</h6>
@@ -76,7 +76,7 @@ function App() {
                     <a className="social-item"href="https://www.linkedin.com/in/nahomy-salazar-37886a119/"><i className="ti-linkedin"></i></a>
                 </div>
             </div>              
-            <div className="img-holder d-none d-sm-grid " style={{alignContent: 'center'}}>
+            <div className="img-holder slide-left d-none d-sm-grid " style={{alignContent: 'center'}}>
                 <img className="pb-5 ancho-img" src="assets/imgs/nahomycari.png" alt=""></img>
             </div>      
         </div>      
