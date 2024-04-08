@@ -58,7 +58,7 @@ function App() {
     </nav>
     <header className="header" style={{ marginTop:'150PX',height:'AUTO',minHeight:'fit-content'}} id="home">
     <div className="container d-block d-sm-flex mb-5">
-            <div className="img-holder position-relative d-block d-sm-none " style={{alignContent: 'center', height:'50%', overflowX:"overlay"}}>
+            <div className="img-holder position-relative d-block d-sm-none " style={{alignContent: 'center', height:'50%'}}>
                 <img  src="assets/imgs/nahomycari.png" alt=""></img>
             </div>   
             <div className="infos mt-5">
@@ -76,7 +76,7 @@ function App() {
                     <a className="social-item"href="https://www.linkedin.com/in/nahomy-salazar-37886a119/"><i className="ti-linkedin"></i></a>
                 </div>
             </div>              
-            <div className="img-holder  position-relative d-none d-sm-grid " style={{alignContent: 'center', overflowX:"overlay"}}>
+            <div className="img-holder  position-relative d-none d-sm-grid " style={{alignContent: 'center'}}>
                 <img className="pb-5 ancho-img" src="assets/imgs/nahomycari.png" alt=""></img>
             </div>      
         </div>      
